@@ -1,0 +1,40 @@
+.thread {
+    width: 40%;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    margin: 1rem auto;
+    border-radius: .2rem;
+}
+
+.thread li {
+    list-style-type: none;
+}
+
+.thread .header {
+    background-color: #eee;
+    padding: .4rem .4rem .1rem .4rem;
+}
+
+.thread .body {
+    padding: .4rem;
+}
+
+.thread .footer {
+    padding: .4rem;
+    font-style: italic;
+}
+
+.thread button {
+    width: 100%;
+    background-color: #a0e;
+    color: #fff;
+    border: 0;
+}
+
+.thread button:hover {
+    background-color: #fff;
+    color: #a0e;
+    transition: .2s linear;
+}

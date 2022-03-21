@@ -1,0 +1,6 @@
+#ban {
+    width: 100%;
+    min-height: 90px;
+    background: url("../assets/bgimg.png") no-repeat;
+    background-size: cover;
+}

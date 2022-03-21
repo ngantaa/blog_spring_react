@@ -1,0 +1,88 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a0e;
+    padding: .5rem;
+    margin: .7rem;
+    border-radius: .3rem;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    margin: .2rem 0;
+}
+
+form input {
+    margin: .2rem;
+    width: 70%;
+}
+
+.newThreadTitle {
+    width: 100%;
+    margin: auto;
+}
+
+form button {
+    background-color: #a0e;
+    color: #fff;
+    border-radius: .3rem;
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid #fff;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #a0e;
+    border: 1px solid #a0e;
+    transition: .2s linear;
+}
+
+#deleteAccount {
+    display: block;
+    background-color: #c30;
+    color: #fff;
+    border-radius: .3rem;
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid #fff;
+}
+
+label {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #a0e;
+    border-radius: .3rem;
+    border: 1px solid #a0e;
+}
+
+label:hover {
+    background-color: #a0e;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+#filePicker {
+    display: none;
+}
+
+#deleteAccount:hover {
+    background-color: #fff;
+    color: #c30;
+    border: 1px solid #c30;
+    transition: .2s linear;
+}
+
+textarea {
+    resize: none;
+    margin-top: .4rem;
+}
+
+.commentaryInput {
+    margin: auto;
+}
