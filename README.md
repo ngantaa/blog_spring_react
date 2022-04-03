@@ -1,5 +1,6 @@
 <h1>Backend of a blog</h1>
 Available at https://polar-bayou-46017.herokuapp.com/
+
 and front-end application at https://cryptic-everglades-41257.herokuapp.com/
 <h2>Rest api storing data in a postgreSQL database</h2>
 Setup : 
